@@ -1,0 +1,22 @@
+{
+    "plugins": ["react", "react-native"],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "env": {
+      "react-native/react-native": true
+    },
+    "rules": {
+      "react/prop-types": "off",
+      "react/react-in-jsx-scope": "off"
+    },
+    "parserOptions": {
+        "parser": "@babel/eslint-parser",
+        "requireConfigFile": "false",
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    }
+  }
